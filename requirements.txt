@@ -1,0 +1,8 @@
+numpy
+pandas
+tensorflow==2.17.1
+keras
+scikit-learn
+opencv-python
+flask
+

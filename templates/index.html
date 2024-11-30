@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender Detection</title>
+</head>
+
+<body>
+    <h1>Upload an Image for Gender Prediction</h1>
+    <form action="/process" method="POST" enctype="multipart/form-data">
+        <label for="file">Choose an image:</label>
+        <input type="file" name="file" id="file" accept="image/*" required>
+        <button type="submit">Upload and Predict</button>
+    </form>
+</body>
+
+</html>
