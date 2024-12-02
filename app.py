@@ -6,10 +6,8 @@ import os
 
 # Load the pre-trained model
 model = load_model("gender_detector.keras")
-
 # Create Flask app instance
 app = Flask(__name__)
-
 # Set a folder to store uploaded files
 UPLOAD_FOLDER = 'uploads/'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
